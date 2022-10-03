@@ -9,3 +9,17 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 120%;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Inter', sans-serif;
+    background-image: url('./mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-size: 120%;
+  }
+}
